@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="camera_wrap">
+                {% for photo in photos %}
+                <div data-src="/static/offline_cache/{{ photo[0] }}"></div>
+	    	    {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

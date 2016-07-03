@@ -1,0 +1,9 @@
+config/
+config.yml
+.idea
+venv/
+lib/jira_cache.sqlite
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
